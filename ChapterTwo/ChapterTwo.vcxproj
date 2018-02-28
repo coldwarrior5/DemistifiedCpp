@@ -20,11 +20,10 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{57A9573D-6860-43F9-8BC9-17942E3DAEF1}</ProjectGuid>
+    <ProjectGuid>{A619FDB5-1976-4456-8C9F-38CBA5C79CC2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>SecondApp</RootNamespace>
+    <RootNamespace>ChapterTwo</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
-    <ProjectName>SecondApp</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
