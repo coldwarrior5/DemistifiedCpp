@@ -133,6 +133,4 @@ void arithmetic_overflow()
 	cout << "++a" << ++a << endl;
 
 
-
-
 }
