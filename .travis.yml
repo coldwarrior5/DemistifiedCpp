@@ -6,4 +6,4 @@ env:
   
 script:
   - cd "$TEMP_DIR"
-  - gcc -std=c11 *.cpp -o main
+  - gcc -std=c++11 *.cpp -o main
