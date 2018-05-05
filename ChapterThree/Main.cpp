@@ -80,14 +80,14 @@ void memory_size()
 
 void numeric_limits_of_types()
 {
-	cout << "int: " << numeric_limits<int>::min() << " to " << numeric_limits<int>::max() << endl;
-	cout << "short: " << numeric_limits<short>::min() << " to " << numeric_limits<short>::max() << endl;
-	cout << "long: " << numeric_limits<long>::min() << " to " << numeric_limits<long>::max() << endl;
-	cout << "long long: " << numeric_limits<long long>::min() << " to " << numeric_limits<long long>::max() << endl;
-	cout << "float: " << numeric_limits<float>::min() << " to " << numeric_limits<float>::max() << endl;
-	cout << "double: " << numeric_limits<double>::min() << " to " << numeric_limits<double>::max() << endl;
-	cout << "long double: " << numeric_limits<long double>::min() << " to " << numeric_limits<long double>::max() << endl;
-	cout << "char: " << numeric_limits<char>::min() << " to " << numeric_limits<char>::max() << endl;
+	cout << "int: " << std::numeric_limits<int>::min() << " to " << std::numeric_limits<int>::max() << endl;
+	cout << "short: " << std::numeric_limits<short>::min() << " to " << std::numeric_limits<short>::max() << endl;
+	cout << "long: " << std::numeric_limits<long>::min() << " to " << std::numeric_limits<long>::max() << endl;
+	cout << "long long: " << std::numeric_limits<long long>::min() << " to " << std::numeric_limits<long long>::max() << endl;
+	cout << "float: " << std::numeric_limits<float>::min() << " to " << std::numeric_limits<float>::max() << endl;
+	cout << "double: " << std::numeric_limits<double>::min() << " to " << std::numeric_limits<double>::max() << endl;
+	cout << "long double: " << std::numeric_limits<long double>::min() << " to " << std::numeric_limits<long double>::max() << endl;
+	cout << "char: " << std::numeric_limits<char>::min() << " to " << std::numeric_limits<char>::max() << endl;
 }
 
 void number_representation()
