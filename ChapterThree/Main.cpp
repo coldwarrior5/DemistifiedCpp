@@ -3,6 +3,7 @@
 
 #include "stdafx.h"
 #include <iostream>
+#include <limits>				// do not always rely on automatic inclusion
 
 using namespace std;
 
@@ -14,7 +15,7 @@ void number_representation();
 void arithmetic_opeations();
 void arithmetic_overflow();
 
-int gloabalVariable;		// declaration of global variable
+int gloabalVariable;			// declaration of global variable
 int main()
 {
 	cout << "Demonstration of the usefulness of initializer lists." << endl;
