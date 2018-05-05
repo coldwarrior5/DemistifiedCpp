@@ -1,2 +1,9 @@
 language: cpp
-compiler: gcc
+env:
+  - TEMP_DIR=ChapterTwo
+  - TEMP_DIR=ChapterThree
+  - TEMP_DIR=ChapterFour
+  
+script:
+  - cd "$TEMP_DIR"
+  - gcc -std=c11 *.cpp -o main
